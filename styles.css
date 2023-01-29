@@ -157,11 +157,15 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 100px;
 }
 
 .cta-card {
     background-color: #3882F6;
     border-radius: 7px;
+    padding: 50px;
+    display: flex;
+    gap: 200px;
 }
 
 .cta-button {
@@ -169,8 +173,26 @@ a {
     border: 1px solid white;
     color: white;
     border-radius: 5px;
+    width: 150px;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .cta-writing {
     color: white
+}
+
+.cta-title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-size: 25px;
 }
